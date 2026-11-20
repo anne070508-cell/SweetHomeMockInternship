@@ -55,6 +55,7 @@ public interface PieceOfFurniture {
   /**
    * Returns the width of this piece of furniture.
    */
+  public float getVolume();
   public abstract float getWidth();
 
   /**
